@@ -1,0 +1,28 @@
+
+<div class="container-fluid mt-large">
+  <div class="col-sm-12">
+    <div class="card"> 
+      <div class="row no-gutters">
+        <div class="col-md-12">
+          <div class="card-body">
+            <h5 class="card-title">Repository Details</h5>
+            <p class="card-text"><strong>{{ data.row.full_name | json }}</strong></p>
+            <p class="card-text">{{ data.row.description | json }}</p>
+            <hr>
+            <p class="card-text">Repo Language: <strong>{{ data.row.language | json }}</strong></p>
+            <p class="card-text">Forks:  <strong>{{ data.row.forks | json }}</strong></p>
+            <p class="card-text">Open Issues:  <strong>{{ data.row.open_issues | json }}</strong></p>
+            <p class="card-text">Watchers:  <strong>{{ data.row.watchers | json }}</strong></p>
+            <p class="card-text">Is Private:  <strong>{{ data.row.private | json }}</strong></p>
+            <hr>
+            <p class="card-text">URL:  <strong><a href="{{ data.row.html_url | json }}">{{ data.row.html_url | json }}</a></strong> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-medium ">
+      <a class="btn btn-primary btn-sm" role="button" [routerLink]="'/'">Back</a>
+    </div>
+  </div>
+</div>
+

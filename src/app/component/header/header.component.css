@@ -1,0 +1,40 @@
+
+.bg-black {
+    background-color: #3f51b5;
+}
+
+.navbar-custom a {
+    color:  #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-custom a:hover {
+    color: #3f51b5;
+}
+
+.navbar-custom a {
+    color: #fff;
+}
+
+span {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-primary {
+    background: #f9951b;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background: #fff;
+}
+
+.btn-primary:active, .btn-primary:focus {
+    border: none;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+}

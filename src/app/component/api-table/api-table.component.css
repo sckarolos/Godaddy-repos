@@ -1,0 +1,16 @@
+table {
+    width: 100%;
+}
+
+h3 {
+    text-align: center;
+}
+
+.highlight{
+    background: #CFD8DC; 
+}
+
+.mat-row:hover {
+    background-color: #dadada;
+    cursor: pointer;
+  }
