@@ -1,4 +1,4 @@
-# Git Repos Angular Application
+# Godaddy Git Repos Angular Application
 A basic application made using <b>Angular 9</b> and <b>Angular Material</b>.  
 
 ## This application: 
@@ -40,7 +40,7 @@ ng test
 
 <kbd>
 
-  ![Capture](https://github.com/sckarolos/Git-Repos-Angular-App/blob/main/screenshot.png)
+  ![Capture](https://github.com/sckarolos/Godaddy-repos/blob/main/screenshot.png)
 
 </kbd>
 

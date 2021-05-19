@@ -1,13 +1,9 @@
 import { Component, OnInit, AfterViewInit, ViewChild, Input, Output, EventEmitter, OnDestroy } from '@angular/core';
 import { ApiTableService } from '../../_service/api-table.service'; 
-import { SharedTableDetailsService } from '../../_service/shared-table-details.service';
 import { MatSort, MatTableDataSource, MatPaginator } from '@angular/material';
 import { formatDate } from '@angular/common';
 import { IApiTable } from '../../_model/i-api-table';
 import { Router } from '@angular/router';
-import { Subscription } from 'rxjs';
-import { state } from '@angular/animations';
-
 
 @Component({
   selector: 'app-api-table',

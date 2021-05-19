@@ -11,7 +11,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { HeaderComponent } from './component/header/header.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ApiTableService } from './_service/api-table.service';
-import { SharedTableDetailsService } from './_service/shared-table-details.service';
 
 @NgModule({
   declarations: [
@@ -29,7 +28,6 @@ import { SharedTableDetailsService } from './_service/shared-table-details.servi
   ],
   providers: [
     ApiTableService,
-    SharedTableDetailsService
   ],
   bootstrap: [AppComponent]
 })
